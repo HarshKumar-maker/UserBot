@@ -473,7 +473,7 @@ HELLOSTR = [
 ]
 
 PROSTR = [
-    "`You is pro user.`",
+    "`You is pro sar.`",
      "`Pros here -_- Time to Leave`",
      "`Pros everywhere`",
      "`Pro Pro Pro ; What a tragedy`",
@@ -1074,17 +1074,17 @@ async def metoo(hahayes):
     await hahayes.edit(choice(METOOSTR))
 
 
-@register(outgoing=True, pattern="^.Oof$")
-async def Oof(e):
-    t = "Oof"
+@register(outgoing=True, pattern="^.oof$")
+async def oof(e):
+    t = "oof"
     for j in range(16):
         t = t[:-1] + "of"
         await e.edit(t)
 
                       
 @register(outgoing=True, pattern="^.oem$")
-async def Oem(e):
-    t = "Oem"
+async def oem(e):
+    t = "oem"
     for j in range(16):
         t = t[:-1] + "em"
         await e.edit(t)
@@ -1502,10 +1502,10 @@ CMD_HELP.update({
 \nUsage: You retard !!\
 \n\n`.zal`\
 \nUsage: Invoke the feeling of chaos.\
-\n\nOem\
-\nUsage: Oeeeem\
-\n\nOof\
-\nUsage: Ooooof\
+\n\n`.oem`\
+\nUsage: oeeeem\
+\n\n`oof`\
+\nUsage: ooooof\
 \n\n`.fp`\
 \nUsage: Facepalm :P\
 \n\n`.moon`\
