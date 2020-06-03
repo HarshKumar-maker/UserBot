@@ -133,7 +133,7 @@ async def amireallyalive(alive):
     await alive.edit(
                      
                       
-                     f"🤖THE BOSS IS HERE🤖 \n"
+                     f"🤖𝔹𝕆𝕊𝕊 𝕀𝕊 ℍ𝔼ℝ𝔼🤖 \n"
                      f"♥️тєℓєтнση νєяѕιση: {version.__version__} \n"
                      f"🐍ρутнση νєяѕιση: {python_version()} \n"
                      f"🤘вσт νєяѕιση: Remix 2.0 \n"
